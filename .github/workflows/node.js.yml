@@ -5,7 +5,7 @@ name: Node.js CI
 
 env:
   SCREENER_API_KEY: ${{ secrets.SCREENER_API_KEY }}
-  SAUCE_USERNAME: ${{ sercrets.SAUCE:USERNAME }}
+  SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
   SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
 
 on:
